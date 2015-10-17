@@ -1,0 +1,42 @@
+body {
+	background-color: #000000;
+	font-family: Avenir;
+	color: white;
+}
+
+#header {
+	font-family: "Courier New";
+	color: #A9F5F2;
+	text-align: center;
+	font-size: 120px;
+	font-weight: normal;
+}
+
+#title {
+	text-align: center;
+	font-size: 50px;
+}
+
+#section {
+	font-family: "Courier New";
+	font-size: 44px;
+	font-weight: normal;
+	color: #A9F5F2;
+}
+
+p {
+	font-size: 18px;
+}
+
+.list {
+	font-size: 18px;
+}
+
+img {
+	width: 20%;
+}
+
+iframe {
+	/* This is for the YouTube video that is embedded on the page! */
+	width: 75%;
+}
