@@ -1,0 +1,366 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+
+
+
+.canvasone {
+	width: 900px;
+	height: 556px;
+	z-index: -1;
+	margin: 100px auto;
+	background: #EFF5FB;
+	position: relative;
+}
+
+.grapecontainer {
+	position: relative;
+	left: 130px;
+    top: 40px;
+}
+
+.grapeone {
+	display: block;
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+    left: 200px;
+    width: 100px;
+    height: 140px;
+    background: rgba(232,162,178,1);
+	background: -moz-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,162,178,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(93%, rgba(51,6,17,1)), color-stop(100%, rgba(51,6,17,1)));
+	background: -webkit-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+	background: -o-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+	background: -ms-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+	background: linear-gradient(to bottom, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a2b2', endColorstr='#330611', GradientType=0 );
+    border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: rotate(-155deg);
+}
+
+.grapetwo {
+	display: block;
+    position: absolute;
+    top: 250px;
+    z-index: 1;
+    left: 350px;
+    width: 100px;
+    height: 140px;
+    background: rgba(232,162,178,1);
+    background: -moz-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,162,178,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(93%, rgba(51,6,17,1)), color-stop(100%, rgba(51,6,17,1)));
+    background: -webkit-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: -o-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: -ms-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: linear-gradient(to bottom, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a2b2', endColorstr='#330611', GradientType=0 );
+    border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: rotate(135deg);
+}
+
+.grapethree {
+	display: block;
+    position: absolute;
+    top: 183px;
+    left: 140px;
+    z-index: 1;
+    width: 100px;
+    height: 140px;
+    background: rgba(232,162,178,1);
+    background: -moz-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,162,178,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(93%, rgba(51,6,17,1)), color-stop(100%, rgba(51,6,17,1)));
+    background: -webkit-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: -o-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: -ms-linear-gradient(top, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    background: linear-gradient(to bottom, rgba(232,162,178,1) 0%, rgba(143,2,34,1) 44%, rgba(51,6,17,1) 93%, rgba(51,6,17,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a2b2', endColorstr='#330611', GradientType=0 );
+    border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: rotate(-115deg);
+}
+
+.stemcontainer {
+	position: relative;
+}
+
+.stemone {
+    position: absolute;
+    height: 220px;
+    top: 80px;
+    width: 15px;
+    left: 430px;
+    z-index: 0;
+    background-color: #61210B;
+}
+
+.stemtwo {
+	position: absolute;
+    height: 60px;
+    top: 220px;
+    width: 15px;
+    left: 400px;
+    z-index: 0;
+    background-color: #61210B;
+    transform: rotate(-115deg);
+}
+
+.stemthree {
+    position: absolute;
+    height: 50px;
+    top: 280px;
+    width: 15px;
+    z-index: 0;
+    left: 449px;
+    background-color: #61210B;
+    transform: rotate(125deg);
+}
+
+.stemfour {
+    position: absolute;
+    height: 60px;
+    top: 293px;
+    width: 15px;
+    left: 418px;
+    z-index: 0;
+    background-color: #61210B;
+    transform: rotate(-155deg);
+}
+
+
+
+
+
+
+
+
+
+
+.canvastwo {
+	width: 900px;
+	height: 556px;
+	z-index: -1;
+	margin: 100px auto;
+	background: #EFF5FB;
+	position: relative;
+	clear: left;
+	top: 700px;
+}
+
+.cat {
+	position: absolute;
+}
+
+.head {
+	width: 350px;
+    top: 170px;
+    left: 250px;
+    height: 330px;
+    background: #424242;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.nose {
+    width: 0;
+    height: 0;
+    top: 333px;
+    left: 400px;
+    position: absolute;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 55px solid #F5A9E1;
+}
+
+.nostrilone {
+    width: 5px;
+    top: -40px;
+    left: -10px;
+    height: 5px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.nostriltwo {
+    width: 5px;
+    top: -40px;
+    left: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.mouthone {
+    position: absolute;
+}
+
+.mouthone {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 350px;
+    left: 350px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 0 black;
+    transform: rotate(400deg);
+}
+
+.mouthtwo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 350px;
+    left: 430px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 0 black;
+    transform: rotate(400deg);
+}
+
+.whiskers {
+    position: absolute;
+}
+
+.whiskerone {
+    position: absolute;
+    width: 250px;
+    top: 280px;
+    left: 130px;
+    height: 5px;
+    background: black;
+    transform: rotate(30deg);
+}
+
+.whiskertwo {
+    position: absolute;
+    width: 250px;
+    top: 350px;
+    left: 100px;
+    height: 5px;
+    background: black;
+    transform: rotate(0deg);
+}
+
+.whiskerthree {
+    position: absolute;
+    width: 250px;
+    top: 420px;
+    left: 130px;
+    height: 5px;
+    background: black;
+    transform: rotate(-30deg);
+}
+
+.whiskerfour {
+    position: absolute;
+    width: 250px;
+    top: 280px;
+    left: 470px;
+    height: 5px;
+    background: black;
+    transform: rotate(-30deg);
+}
+
+.whiskerfive {
+    position: absolute;
+    width: 250px;
+    top: 350px;
+    left: 500px;
+    height: 5px;
+    background: black;
+    transform: rotate(0deg);
+}
+
+.whiskersix {
+    position: absolute;
+    width: 250px;
+    top: 420px;
+    left: 470px;
+    height: 5px;
+    background: black;
+    transform: rotate(30deg);
+}
+
+.eye {
+    position: relative;
+}
+
+.eyeone {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 350px;
+    top: 250px;
+    background: white;
+}
+
+.eyetwo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    left: 455px;
+    top: 250px;
+    background: white;
+}
+
+.pupilone {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left: 367px;
+    top: 270px;
+    background: black;
+}
+
+.pupiltwo {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left: 472px;
+    top: 270px;
+    background: black;
+}
+
+.earone {
+    width: 0;
+    height: 0;
+    top: 90px;
+    z-index: -1;
+    left: 270px;
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 110px solid transparent;
+    border-top: 120px solid #2E2E2E;
+    transform: rotate(-95deg);
+}
+
+.eartwo {
+    width: 0;
+    height: 0;
+    top: 128px;
+    z-index: -1;
+    left: 490px;
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 110px solid transparent;
+    border-top: 120px solid #2E2E2E;
+    transform: rotate(-30deg);
+}
+
+
+
+
+
+
