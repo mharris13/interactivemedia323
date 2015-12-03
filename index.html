@@ -6,9 +6,16 @@
 </head>
 <body>
 
-<div class="header">
-  Welcome to Makena's Homepage!
-</div>
+<center>
+  <div class="header">
+    Makena Harris A323 Website
+  </div>
+
+  <img src="photos/7.jpg" style="width:20%;">
+
+  <br>
+  <br>
+</center> 
 
    <p> 
     Projects:
@@ -36,8 +43,20 @@
 
 <style>
 body {
-  font-family: "avenir next";
+  font-family: "Helvetica";
   font-size: 14pt;
+}
+
+#circle {
+  border-radius: 100%;
+}
+
+.header {
+  font-family: "avenir";
+  font-size: 30pt;
+  letter-spacing: 20pt;
+  text-align: center;
+  color: black;
 }
 
 a:link {
@@ -60,7 +79,18 @@ a:active {
   color: black;
 }
 
+img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
 
+
+/* Disable grayscale on hover */
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
 
 
 </style>  
