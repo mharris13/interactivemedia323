@@ -1,0 +1,75 @@
+body {
+	background-image: url("Photos/17.jpg");
+	background-attachment: fixed;
+}
+
+
+#top {
+	/* this is for the title of the article! */
+	background-color: black;
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 60px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#explanation {
+	/* this is for that short blurb directly under the title */
+	color: white;
+	text-align: center;
+	font-family: Avenir, Futura, Arial, sans-serif;
+	font-size: 30px;
+}
+
+
+.container {
+	/* this is for the table of contents! */
+	color: black;
+	font-family: Arial;
+	font-size: 20px;
+	border: 2px white solid;
+	width: 200px;
+	padding: 5px;
+	background-color: white;
+	opacity: 0.50;
+}
+
+
+a:link {
+	/* unvisited links */
+	color: red;
+}
+
+
+a:hover {
+	/* mouse over link */
+	color: blue;
+}
+
+
+a:active {
+	/* active link (AKA, a link in the moment of being clicked) */
+	color: white;
+}
+
+
+a:visited {
+	/* a link that has been clicked on (or "visited"!) */
+	color: black;
+}
+
+
+.box {
+	/* this is the box that surrounds all the steps! */
+	background-color: white;
+	padding: 1px 20px 20px 20px;
+}
+
+
+h2 {
+	/* this is for the "Steps:" header */
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 42px;
+}
